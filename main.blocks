@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="5/Fu:Tf]%jk=NCU~yFpV">temp</variable></variables><block type="pxt-on-start" id="r[#bfR%FKqT5C#]+g2ja" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="!wR77Tw[lMIQ!F.WV=Ps"><value name="TIMES"><shadow type="math_whole_number" id="L;k6hwT^ntp6,0m.6(!E"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="WUM8Pc}nTk7cvnrP!}x:"><field name="LEDS">`
+        . # # . . 
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="8,hz.i24/{F4aTx((SoZ"><field name="LEDS">`
+        . . . # . 
+        . . . . # 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="(*C-=ti+!Ts/w][`X6K="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . # # .
+        `</field><next><block type="device_show_leds" id="Fqdn(LGEIeX|SEWr!eF,"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        # . . . . 
+        . # . . .
+        `</field></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_forever" id="W-6EOHJ!`L~Jmo/*r.6:" x="205" y="0"/><block type="device_button_event" id="ap*,)hP`[C7b2EAz]X)G" x="539" y="14"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="YMy2uQ,6@bOLNI:1lL2]"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="mk{B3[[$_;xpzp_cNilr"/></value></block></statement></block><block type="device_button_event" id="imea_ooGD[i^S_,C5qL4" x="340" y="121"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_number" id=":sR2v6^)D}|,_-Zj*~AD"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="O:F@s!edCPKi`N|_a#!$"><field name="OP">ADD</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="IV/+|qOH@Pn.*t!`Woba"><field name="OP">DIVIDE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="{4YcCHFfx4xmQBIrOJ0@"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" id="flV`BE~RUR_@kmXyTK7#"><field name="NUM">9</field></shadow></value><value name="B"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_temperature" id="oR^{ZCau.nS@SDU?h.3X"/></value></block></value><value name="B"><shadow type="math_number" id="GC|zj|T3$apF0^SeeO@G"><field name="NUM">5</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="(nLN=lmfNCvYC=W1QK^M"><field name="NUM">32</field></shadow></value></block></value></block></statement></block></xml>
